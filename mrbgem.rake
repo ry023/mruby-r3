@@ -64,4 +64,5 @@ MRuby::Gem::Specification.new('mruby-r3') do |spec|
   end
 
   spec.objs += files
+  spec.add_dependency 'mruby-metaprog', :core => 'mruby-metaprog'
 end
